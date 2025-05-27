@@ -12,7 +12,7 @@ Proyek ini membangun sistem **Data Warehouse berbasis SQL Server** untuk mengana
 
 - Menganalisis churn pelanggan untuk mendukung strategi retensi
 - Menghitung metrik seperti **ARPU**, **tren churn**, dan identifikasi layanan berisiko
-- Menggunakan skema bintang (1 tabel fakta & 5 dimensi)
+- Menggunakan skema bintang (1 tabel fakta & 6 dimensi)
 - ETL dilakukan dengan **Python** dan **SQL Server**
 
 ---
@@ -43,7 +43,8 @@ Dataset yang digunakan adalah `telecom_customer_churn.csv` dari Kaggle, memuat *
   - `dim_service`
   - `dim_payment`
   - `dim_location`
-  - `dim_time`
+  - `dim_date`
+  - `dim_churn`
 
 ---
 
